@@ -1,0 +1,22 @@
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #EBEBEB;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+.top-menu {
+    background-color: white !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
+}
+.menu-item * {
+    color: white;
+}

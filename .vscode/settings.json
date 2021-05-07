@@ -1,0 +1,4 @@
+{
+    "python.linting.flake8Path": "~/.virtualenvs/redux-saga/bin/flake8",
+    "python.pythonPath": "~/.virtualenvs/redux-saga/bin/python"
+}

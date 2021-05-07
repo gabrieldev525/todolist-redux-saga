@@ -1,0 +1,95 @@
+.container {
+  width: 50%;
+  background-color: #fff;
+  border-radius: 14px;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+/* header */
+.container .title {
+  margin: 0;
+  margin-top: 2%;
+  font-weight: 700;
+}
+.container .subtitle {
+  color: rgb(95, 95, 95);
+}
+
+/* form */
+.container form {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+.container form input[type=text] {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 2%;
+  border-radius: 14px 0 0 14px;
+}
+.container form input[type=text]:focus {
+  border-color: rgb(136, 41, 190);
+}
+.container form input[type=submit] {
+  padding: 0 5%;
+  border: 0;
+  background-color: rgb(136, 41, 190);
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+  border-radius: 0 14px 14px 0;
+}
+.container form input[type=submit]:hover {
+  background-color: rgb(101, 27, 145);
+}
+
+/* table */
+.container table {
+  margin-top: 5%;
+  width: 100%;
+  border-spacing: 0;
+}
+.container table td {
+  border: 1px solid #ccc;
+  padding: 2%;
+}
+.container table thead td {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.container table td {
+  text-align: center;
+}
+
+.remove-button {
+  border: 0;
+  fill: rgb(190, 41, 41) !important;
+  border-radius: 14px;
+  padding: 8%;
+  cursor: pointer;
+  transition: 0.25s;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.remove-button:hover {
+  fill: rgb(155, 29, 29);
+}
+
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0;
+}
+.no-results * {
+  color: #373737 !important;
+}
+.no-results i {
+  font-size: 3rem !important;
+  margin-bottom: 1rem;
+}
